@@ -1,0 +1,108 @@
+.resource-card {
+  -webkit-animation: fadeIn;
+  animation: fadeIn;
+  opacity: 1;
+  -webkit-animation-duration: 1.2s;
+  animation-duration: 1.2s;
+  width: 251px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.resource-header {
+  height: 251px;
+}
+
+.resource-card-tile {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.resource-card-body img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.resource-cost {
+  bottom: 10px;
+}
+
+.resource-body {
+  background: rgba(111, 142, 157, 0.4);
+  height: 160px;
+}
+
+.resource-description {
+  color: #545454;
+}
+
+.resource-selectable {
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.resource-selectable button {
+  width: 171px;
+  height: 40px;
+}
+
+.resource-selectable a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.gather-lumber-resource {
+  border: 2px solid #ec9821;
+  border-radius: 25px;
+  padding-top: 10px;
+}
+
+.gather-resource-content {
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+.gather-lumber-resource-btn {
+  position: absolute;
+  background: #ec9821;
+  border: 2px solid #ec9821;
+  border-radius: 36px;
+  bottom: 0;
+}
+
+.gather-power-resource {
+  border: 2px solid #0ed145;
+  border-radius: 25px;
+  padding-top: 10px;
+}
+
+.gather-resource-content .divider {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+@media (max-width: 770px) {
+  .resource-card {
+    min-width: 252px;
+    margin: 0 30px 0 0;
+  }
+}
+
+@media (max-width: 578px) {
+  .resource-card {
+    max-width: 343px !important;
+  }
+  .resource-description {
+    max-width: 298px;
+  }
+}
+
+@media (max-width: 400px) {
+  .resource-card {
+    min-width: 252px;
+    margin: 0 10px 0 0;
+  }
+}

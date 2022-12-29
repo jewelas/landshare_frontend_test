@@ -1,0 +1,49 @@
+@-webkit-keyframes progressIn {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes progressIn {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.progress {
+  background-color: #FFFFFF !important;
+  border: 2px solid #D0D0D0 !important;
+  border-radius: 6px !important;
+  height: 24px !important;
+}
+
+.progress .progress-bar {
+  -webkit-animation: progressIn;
+  animation: progressIn;
+  -webkit-animation-duration: 0.9s;
+  animation-duration: 0.9s;
+  background-color: #0B6C96 !important;
+}
+
+.empty-status .progress {
+  background-color: #FFFFFF !important;
+  border: 2px solid #D0D0D0 !important;
+  border-radius: 6px !important;
+  height: 24px !important;
+}
+
+.empty-status-progress {
+  background-color: #FFFFFF !important;
+  border: 2px solid #D0D0D0 !important;
+  opacity: 0.3 !important;
+  border-left: 0px !important;
+  border-radius: 6px !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  height: 24px !important;
+}

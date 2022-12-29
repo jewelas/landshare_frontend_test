@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins";
+}
+
+/* COLOR */
+.cl-656565 {
+  color: #656565;
+}
+
+.cl-000000 {
+  color: #000000;
+}
+
+.cl-FFFFFF {
+  color: #ffffff;
+}
+
+/* FONT-SIZE */
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-36 {
+  font-size: 36px;
+}
+
+.fs-22 {
+  font-size: 22px;
+}
+
+/* FONT-WEIGHT */
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+/* CAROUSEL */
+.property-about-carousell .sr-only {
+  display: none !important;
+}
+
+.property-about-carousell .carousel-control-next-icon {
+  background-image: url(../../assets/img/icons/carousel_right_arrow.png) !important;
+  background-repeat: no-repeat !important;
+}
+
+.property-about-carousell .carousel-control-prev-icon {
+  background-image: url(../../assets/img/icons/carousel_right_arrow.png) !important;
+  transform: rotate(180deg) !important;
+  background-repeat: no-repeat !important;
+}
+
+.property-about-carousell.small .carousel-control-next-icon {
+  background-size: 40% !important;
+}
+
+.property-about-carousell.small .carousel-control-prev {
+  left: 67.6% !important;
+}
+
+.property-about-carousell.small .carousel-control-prev-icon {
+  background-size: 40% !important;
+}
+
+.property-about-carousell .carousel-control-next {
+  top: 87% !important;
+  border-radius: 0px 10px 10px 0px !important;
+  bottom: 5px !important;
+  background-color: white !important;
+  right: 5px !important;
+}
+
+.property-about-carousell .carousel-control-prev {
+  top: 87% !important;
+  left: 69.2% !important;
+  bottom: 5px !important;
+  background-color: white !important;
+  border-radius: 10px 0px 0px 10px !important;
+}
+
+.property-about-carousell .carousel-indicators {
+  display: none !important;
+}
+
+/* .container {
+  width: 80%;
+  margin: 15px auto;
+} */
+
+.chips {
+  background: #0ed145;
+  border-radius: 19px;
+  border: none;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.chip button {
+  cursor: unset;
+}
+
+@media (max-width: 1399.98px) {
+  .chip button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header-name {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .property-content {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .fs-36 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 576px) {
+  .fs-36 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  .property-content {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .chip button {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 576px) {
+  .property-about-carousell .carousel-control-prev {
+    top: 83% !important;
+    left: 69.2% !important;
+    bottom: 5px;
+    background-color: white;
+    border-radius: 5px 0px 0px 5px;
+  }
+
+  .property-about-carousell .carousel-control-next {
+    top: 83% !important;
+    right: 5px;
+    bottom: 5px;
+    background-color: white;
+    border-radius: 0px 5px 5px 0px;
+  }
+}
+
+.chip {
+  padding: 2px 20px;
+  background-color: #0ed145;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 5px;
+  color: #ffffff;
+  cursor: default;
+}
+
+.chip:hover {
+  background-color: #0ac840;
+}

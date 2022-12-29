@@ -1,0 +1,41 @@
+.modal-content {
+  border-radius: 16px !important;
+  overflow: hidden;
+  border: 0px !important;
+}
+
+.modal-header-content.status-error {
+  background-color: #B43F37;
+}
+
+.modal-header-content.status-success {
+  background-color: #0ED145;
+}
+
+.modal-header-content .alert-image {
+  left: 0.75rem;
+}
+
+.modal-header-content span {
+  color: #FFFFFF;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.modal-body-content {
+  font-weight: 600;
+}
+
+.modal-footer-content .btn {
+  color: #FFFFFF;
+  min-width: 100px;
+  border-radius: 20px;
+}
+
+.modal-footer-content.status-error .btn {
+  background-color: #B43F37;
+}
+
+.modal-footer-content.status-success .btn {
+  background-color: #0ED145;
+}

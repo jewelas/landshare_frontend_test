@@ -1,0 +1,56 @@
+.marketplaces-list {
+  display: grid;
+  grid-template-columns: minmax(251px, max-content) minmax(251px, max-content) minmax(
+      251px,
+      max-content
+    ) minmax(251px, max-content);
+  justify-content: space-between;
+  row-gap: 4rem;
+}
+
+@media (max-width: 1200px) {
+  .marketplaces-list {
+    display: grid;
+    grid-template-columns: minmax(251px, max-content) minmax(251px, max-content) minmax(
+        251px,
+        max-content
+      );
+    justify-content: space-between;
+    row-gap: 4rem;
+  }
+}
+
+@media (max-width: 995px) {
+  .marketplaces-list {
+    display: grid;
+    grid-template-columns: minmax(251px, max-content) minmax(251px, max-content);
+    justify-content: space-between;
+    row-gap: 4rem;
+  }
+}
+
+@media (max-width: 770px) {
+  .marketplaces-list {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    padding: 0 0 20px 0;
+  }
+  .marketplaces-item-moible{
+    min-width: 300px;
+    margin: 0 20px 0 0;
+  }
+}
+
+.pagination li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.pagination .active {
+  color: #0ed145;
+}
+
+.pagination .disabled a svg path {
+  opacity: 0.4 !important;
+}

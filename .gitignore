@@ -1,0 +1,12 @@
+balls.secret
+client_secret.json
+node_modules/
+build/
+# dependencies
+
+.env*
+.local
+.env
+.env.development
+.firebase/
+.deps/

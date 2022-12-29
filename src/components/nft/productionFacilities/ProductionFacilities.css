@@ -1,0 +1,27 @@
+.production-facilities-section {
+  display: grid;
+  grid-template-columns: minmax(300px, max-content) minmax(300px, max-content) minmax(
+      300px,
+      max-content
+    );
+  justify-content: space-between;
+  row-gap: 50px;
+}
+
+@media (max-width: 1200px) {
+  .production-facilities-section {
+    display: grid;
+    grid-template-columns: minmax(300px, max-content) minmax(300px, max-content);
+    justify-content: space-between;
+    row-gap: 50px;
+  }
+}
+
+@media (max-width: 770px) {
+  .production-facilities-section {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    padding: 0 0 20px 0;
+  }
+}

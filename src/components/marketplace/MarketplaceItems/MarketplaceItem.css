@@ -1,0 +1,153 @@
+.marketplace-item {
+  -webkit-animation: fadeIn;
+  animation: fadeIn;
+  opacity: 1;
+  -webkit-animation-duration: 0.7s;
+  animation-duration: 0.7s;
+  border-radius: 16px;
+  overflow: hidden;
+  max-width: 251px;
+}
+
+.card-current-multipler {
+  padding-right: 10px;
+  padding-left: 10px;
+  bottom: 10px;
+}
+
+.marketplace-content {
+  height: 128px;
+}
+
+.marketplace-item .current-multiplier .value {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  vertical-align: text-bottom;
+  line-height: 18px;
+}
+
+.marketplace-item .current-multiplier .label {
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 600;
+  padding-left: 2px;
+  vertical-align: text-bottom;
+}
+
+.marketplace-title {
+  background: rgba(196, 196, 196, 0.2);
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 16px;
+}
+
+.marketplace-header {
+  height: 249px;
+}
+
+.marketplace-body {
+  background: rgba(111, 142, 157, 0.4);
+  padding: 12px !important;
+}
+
+.marketplace-durability .house-item-label1 {
+  width: 50% !important;
+}
+
+.marketplace-durability .progress-content-show {
+  width: 50% !important;
+}
+
+.house-item-label1 {
+  color: #0b6c96;
+}
+
+.house-item-label2 {
+  color: #0b6c96;
+}
+
+.marketplace-facility-level {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+}
+
+.marketplace-facility-haslevel {
+  color: #767e82;
+}
+
+.marketplace-facility-nonelevel {
+  color: #767e8280;
+}
+
+.house-item-value {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.marketplace-buy .switch-btn {
+  height: 40px;
+  padding-left: 12px;
+  background-color: #ffffff;
+}
+
+.marketplace-buy .switch-btn .btn-switch-sale {
+  width: 115px;
+}
+
+.market-buy .switch-btn {
+  border: 2px solid #0ed145;
+}
+
+.market-buy .switch-btn .btn-switch-sale {
+  border: 2px solid #0ed145;
+}
+
+.market-active .switch-btn .btn-switch-sale {
+  background-color: #8f8f8f;
+}
+
+.market-active .switch-btn .btn-switch-sale {
+  border: 2px solid #8f8f8f;
+}
+
+.market-active .switch-btn {
+  border: none;
+  background: transparent;
+}
+
+.show-nft-detail {
+  padding-left: 12px;
+  color: #545454;
+  text-decoration: underline;
+}
+
+.show-nft-detail:hover {
+  color: #0010fe85;
+}
+
+@media (max-width: 760px) {
+  .marketplace-item {
+    margin: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .marketplace-item {
+    max-width: 343px;
+    width: 100%;
+  }
+  .marketplace-header {
+    height: auto !important;
+  }
+  .marketplace-header img {
+    width: 100% !important;
+  }
+  .switch-btn {
+    width: 100% !important;
+  }
+}
+.durability-box {
+  max-width: 219px;
+  margin: auto;
+}

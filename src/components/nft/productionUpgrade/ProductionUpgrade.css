@@ -1,0 +1,82 @@
+.upgrade-section {
+  display: grid;
+  grid-template-columns: minmax(257px, max-content) minmax(257px, max-content) minmax(
+      257px,
+      max-content
+    ) minmax(257px, max-content);
+  justify-content: space-between;
+  row-gap: 70px!important
+}
+
+.upgrade-section-row{
+  row-gap: 70px!important
+}
+
+@media (max-width: 1200px) {
+  .upgrade-section {
+    display: grid;
+    grid-template-columns: minmax(257px, max-content) minmax(257px, max-content) minmax(
+        257px,
+        max-content
+      );
+    justify-content: space-between;
+    row-gap: 45px;
+  }
+}
+
+@media (max-width: 995px) {
+  .upgrade-section {
+    display: grid;
+    grid-template-columns: minmax(257px, max-content) minmax(257px, max-content);
+    justify-content: space-between;
+    row-gap: 45px;
+  }
+}
+
+@media (max-width: 770px) {
+  .upgrade-section {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.upgrade-section .control-dots {
+  display: none;
+}
+
+.carousel-control-icon {
+  width: 25px;
+  height: 25px;
+  background: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  z-index: 15;
+  top: 138px;
+  cursor: pointer;
+}
+
+.control-icon-prev {
+  left: -5px;
+}
+
+.control-icon-next {
+  right: -5px;
+}
+
+.control-icon-next img {
+  transform: scaleX(-1);
+}
+/* .upgrade-section .carousel-slider {
+  margin: auto;
+  width: 257px;
+} */
+
+@media (max-width: 576px) {
+  .yield-upgrade {
+    max-width: 257px;
+  }
+  .upgrade-section .carousel-slider {
+    margin: auto;
+    width: 257px !important;
+  }
+}

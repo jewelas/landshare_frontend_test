@@ -1,0 +1,11 @@
+.mr-24 {
+  margin-right: 24px;
+}
+@media (max-width: 575.98px) {
+  .h-sm-250 {
+    height: 250px;
+  }
+}
+.h-330 {
+  height: 330px;
+}

@@ -1,0 +1,41 @@
+{
+	"compiler": {
+		"version": "0.6.2+commit.bacdbe57"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Collection of functions related to the address type",
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/LandToken.sol": "Address"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/LandToken.sol": {
+			"keccak256": "0x46bb0694be9761a23e1028606ca96fa23d74251a28b1069eb60b9c13d89926df",
+			"urls": [
+				"bzz-raw://bda9411d37e3adb32583931041914c9a36946d65188134237445b8f11588f7b6",
+				"dweb:/ipfs/QmXZT9egNSNGKh9BXWFfZhjVzCB3RwFc6GGgxexApYsYNg"
+			]
+		}
+	},
+	"version": 1
+}

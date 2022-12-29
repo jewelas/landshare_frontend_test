@@ -1,0 +1,181 @@
+.yield-upgrade {
+  -webkit-animation: fadeIn;
+  animation: fadeIn;
+  opacity: 1;
+  -webkit-animation-duration: 1.2s;
+  animation-duration: 1.2s;
+  max-width: 257px;
+  border-radius: 20px;
+  margin: auto;
+  overflow: hidden;
+  background-color: rgb(0 0 0 / 18%);
+}
+
+.yield-upgrade-content-section {
+  background-color: #ffffff;
+}
+
+/* .yield-upgrade:hover {
+  box-shadow: 13px 1rem 1rem rgb(0 0 0 / 18%);
+  transition: all 0.3s ease-in-out;
+  transform: translate(0, -5px);
+}
+
+.yield-upgrade:not(:hover) {
+  transition: all 0.3s ease-in-out;
+  transform: translate(0, 0);
+} */
+
+.none-animate:hover {
+  box-shadow: none;
+  transition: none;
+  transform: none;
+}
+
+.yield-head {
+  height: 49px;
+  padding: 8px 0px;
+}
+
+.yield-head span {
+  font-size: 20px;
+}
+
+.yield-description {
+  max-width: 257px;
+}
+
+.duration {
+  font-size: 0.8rem;
+  color: white;
+  font-weight: 600;
+}
+
+.duration.yield {
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+}
+
+.duration-date {
+  font-size: 0.9rem;
+  color: white;
+  font-weight: 600;
+}
+
+.duration-date.yield {
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+}
+
+.yield-upgrade-content.yield {
+  background: linear-gradient(180deg, #689D77 0%, rgba(14, 209, 69, 0) 100%, rgba(58, 156, 86, 0.32) 100%);
+}
+
+.yield-upgrade-content-image {
+  height: 210px;
+}
+
+.yield-upgrade-content-image .yield-upgrade-main-image {
+  left: 50%;
+  top: 50%;
+  height: 180px;
+  width: auto !important;
+  transform: translate(-50%, -50%);
+}
+
+.yield-upgrade-content.production {
+  background: linear-gradient(180deg, #68819D 0%, rgba(77, 163, 169, 0.26) 99.48%);
+}
+
+.duration-section {
+  padding: 0px 12px;
+  bottom: 0px;
+}
+
+.duration-section img {
+  opacity: 0.7;
+}
+
+.duration-section svg:hover:not(.show-alert) path {
+  fill-opacity: 0.7;
+}
+
+.yield-title {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.yield-upgrade-cost {
+  background-color: #6f8e9d66;
+  padding: 13px 12px;
+}
+
+.yield-level-descriptor {
+  color: #8f8f8f;
+  font-size: 15px;
+}
+
+.yield-upgrade-duration-time-value {
+  position: absolute;
+  transform: translate(-50%, 0%);
+  top: 5px;
+  left: 50%;
+}
+
+@media (max-width: 770px) {
+  .yield-upgrade {
+    margin: auto;
+  }
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.lumber-count {
+  max-width: 50px;
+  border: 1px solid #8d8d8d;
+  border-radius: 5px;
+  text-align: right;
+  font-size: 0.8rem;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.lumber-count:focus-visible {
+  outline: 0px;
+  box-shadow: inset 0 0 2px 1px #888;
+}
+
+.yield-upgrade-content.yield .duration {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.overdriver-card .yield-upgrade-content-image svg:not(.svg-info) {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.overdriver-card .yield-upgrade-content {
+  background: linear-gradient(180deg, #FD8C07 0%, rgba(252, 165, 116, 0.26) 99.48%);
+}
+
+.alert-icons{
+  display: flex;
+  flex-direction: row;
+}
+
+.show-alert:hover path {
+  opacity: 1;
+}

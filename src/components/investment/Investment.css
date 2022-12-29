@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins";
+}
+/* COLOR */
+.cl-656565 {
+  color: #656565;
+}
+
+/* BACKGROUND-COLOR */
+.bg-F5FFF7 {
+  background-color: #f5fff7;
+}
+/* FONT-SIZE */
+
+.fs-28 {
+  font-size: 28px;
+}
+/* 
+.fs-18 {
+  font-size: 16px;
+} */
+
+/* FONT-WEIGHT */
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+
+/* BORDER-BOTTOM */
+.br-b {
+  border-bottom: 2px solid #dce5de;
+}
+.property-card {
+  background: #ffffff;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  position: sticky;
+  top: 9rem;
+  width: 80%;
+  height: fit-content;
+}
+.full-card {
+  display: flex;
+  justify-content: flex-end;
+}
+.property-image {
+  border-radius: 10px 10px 0px 0px;
+}
+
+@media (max-width: 991.98px) {
+  .property-card {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .fs-28 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .fs-28 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .fs-18 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .fs-18 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 576px) {
+  .fs-18 {
+    font-size: 14px;
+  }
+}

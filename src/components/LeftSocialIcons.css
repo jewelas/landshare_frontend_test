@@ -1,0 +1,67 @@
+.social-home-icons.active {
+  left: -38px;
+  transition: all 0.3s ease-in-out;
+}
+.social-home-icons.active:hover {
+  left: 0;
+}
+.social-home-icons {
+  transition: all 0.3s ease-in-out;
+  z-index: 15;
+  left: 0;
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 0px 24px 24px 0px;
+  filter: drop-shadow(9px 0px 17px rgba(0, 0, 0, 0.25));
+  top: 50%;
+  transform: translateY(-50%);
+  position: fixed;
+  cursor: pointer;
+}
+.social-home-icons .t-icon {
+  background-color: #00a8f3;
+}
+.social-home-icons .t-icon:hover {
+  background-color: #0085c0;
+}
+.social-home-icons .m-icon {
+  background-color: #000;
+}
+.social-home-icons .m-icon:hover {
+  background-color: #191818;
+}
+.social-home-icons .telegram-icon img {
+  cursor: pointer;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.social-home-icons .telegram-icon img:hover {
+  background-color: #0085c0;
+}
+.social-home-icons .email-icon {
+  background-color: #0ed145;
+}
+.social-home-icons .email-icon:hover {
+  background-color: #0ba135;
+}
+.social-home-icons span {
+  cursor: pointer;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.social-home-icons span img {
+  width: 15px;
+  height: 15px;
+}
+
+.social-home-icons.active {
+  left: -38px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}

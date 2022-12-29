@@ -1,0 +1,1042 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+:root {
+  --xxs: 14px;
+  --xs: 16px;
+  --sm: 18px;
+  --xxl: 36px;
+  --md: 24px;
+  --green: #0ed145;
+  --black: #000;
+  --black-900: rgba(0, 0, 0, 0.9);
+  --black-800: rgba(0, 0, 0, 0.8);
+  --black-700: rgba(0, 0, 0, 0.7);
+  --black-600: rgba(0, 0, 0, 0.6);
+  --black-500: rgba(0, 0, 0, 0.5);
+  --light-blue: #6f8e9d;
+  --grey-800: #858585;
+  --grey-900: #5e5e5e;
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1127px;
+  }
+}
+.bg-green {
+  background-color: var(--green);
+}
+.fs-md {
+  font-size: var(--md);
+}
+.text-green {
+  color: var(--green);
+}
+.br-md {
+  border-radius: 24px !important;
+}
+.br-sm {
+  border-radius: 10px;
+}
+.fs-xs {
+  font-size: var(--xs);
+}
+.fs-sm {
+  font-size: var(--sm);
+}
+.fs-xxl {
+  font-size: var(--xxl);
+}
+.fs-xxs {
+  font-size: 14px;
+}
+.bg-light-blue {
+  background-color: var(--light-blue);
+}
+.text-black {
+  color: var(--black);
+}
+.text-161616 {
+  color: #161616;
+}
+.text-grey-900 {
+  color: var(--grey-900);
+}
+.text-grey-800 {
+  color: var(--grey-800);
+}
+.text-black-900 {
+  color: var(--black-900);
+}
+.bg-black-700 {
+  background-color: var(--black-700);
+}
+.bg-black-600 {
+  background-color: var(--black-600);
+}
+.bg-fifthgray {
+  background-color: #f7f8fa;
+}
+.text-black-600 {
+  color: var(--black-600);
+}
+.text-black-700 {
+  color: var(--black-700);
+}
+.text-black-800 {
+  color: var(--black-800);
+}
+.text-black-500 {
+  color: var(--black-500);
+}
+.shadow-cards {
+  box-shadow: 2px 2px 16px rgba(0, 0, 114, 0.1);
+}
+.land-heading {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: #0ed145;
+}
+.rounded-5 {
+  border-radius: 5px;
+}
+
+.fs-28 {
+  font-size: 28px;
+}
+
+.h-45 {
+  height: 45px;
+}
+.h-43 {
+  height: 43px;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+.z-2 {
+  z-index: 2;
+}
+.font-medium {
+  font-weight: 500;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.fs-12 {
+  font-size: 16px;
+}
+.fs-11 {
+  font-size: 11px;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fs-27 {
+  font-size: 27px;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.mt-35 {
+  margin-top: 35px;
+}
+.text-39A849 {
+  color: #39a849;
+}
+.text-656565 {
+  color: #656565;
+}
+
+.text-0d6efd {
+  color: #0d6efd;
+}
+
+.text-black {
+  color: black;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.link-text {
+  text-decoration: none;
+}
+.link-text:hover span {
+  border-bottom: 2px solid #6fcf97;
+}
+.p-50 {
+  padding: 50px;
+}
+.py-30 {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.w-auto {
+  width: auto;
+}
+.w-30 {
+  width: 30%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-242 {
+  width: 242px;
+}
+
+.mb-13 {
+  margin-bottom: 13px;
+}
+
+.min-h-100 {
+  min-height: 100px;
+}
+
+.min-h-300 {
+  min-height: 300px;
+}
+
+.min-h-50vh {
+  min-height: 50vh;
+}
+
+.min-h-60vh {
+  min-height: 60vh;
+}
+
+.landshare-loader {
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  position: fixed;
+  background: #ffffff7d;
+  z-index: 12;
+}
+
+.radio {
+  appearance: button;
+}
+.max-w-100 {
+  max-width: 100%;
+}
+.fs-10 {
+  font-size: 10px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.text-overflow-ellipsis {
+  overflow: hidden;
+  max-width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.PCSBtn {
+  background-color: transparent;
+  border: solid black 0px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.guideBtn {
+  background-color: transparent;
+  border: solid black 0px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.PCSBunny {
+  display: inline-block;
+  height: 45px;
+  width: auto;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.arrowSVG {
+  width: 15px;
+  height: 15px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+}
+.logo-text {
+  width: 172px;
+  height: 71px;
+}
+@media (max-width: 476px) {
+  .logo-text {
+    display: none !important;
+  }
+}
+@media (max-width: 576px) {
+  .justify-xs-center {
+    justify-content: center !important;
+  }
+  .text-xs-center {
+    text-align: center;
+  }
+}
+
+/* button:disabled {
+  border: 3px solid #5c5a5a1a !important;
+  color: #adb5bd !important;
+  background-color: #5c5a5a1a !important;
+} */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .w-sm-100 {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .w-lg-50 {
+    width: 50% !important;
+  }
+  .w-lg-60 {
+    width: 60%;
+  }
+  .fs-lg-24 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 992px) {
+  .w-lg-70 {
+    width: 70% !important;
+  }
+}
+@media (min-width: 1200px) {
+  .w-xl-50 {
+    width: 50% !important;
+  }
+  .w-xl-60 {
+    width: 60% !important;
+  }
+}
+.full-page-view {
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: fixed;
+  overflow: hidden;
+  z-index: 20;
+}
+.not-available-card {
+  padding: 40px 30px;
+  background-color: white;
+  box-shadow: 0px 5px 20px 0px #0000001a;
+  border-radius: 10px;
+}
+.heading {
+  font-size: 25px;
+  font-weight: 500;
+  color: #000000;
+}
+.para {
+  font-size: 22px;
+  font-weight: 400;
+  max-width: 650px;
+  margin: auto;
+}
+@media (max-width: 576px) {
+  .heading {
+    font-size: 22px;
+  }
+  .para {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1400px) {
+  .card-1 {
+    width: 700px;
+  }
+}
+
+/*=================== NFT PAGE STYLE  =====================*/
+
+.divider {
+  height: 0px;
+  border-bottom: 1px solid #00000050;
+}
+.dashed-divider {
+  height: 0px;
+  opacity: 0.5;
+  border-bottom: 1px dashed #000000;
+}
+
+/*=============== MY PROPERTY SECTION STYLE ===============*/
+/* .deposite-input-box {
+  width: 171px;
+  height: 45px;
+
+  border-radius: 28px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 28px;
+}
+.deposite-input-box input:focus {
+  outline: none;
+} */
+.max-btn {
+  width: 51px;
+  height: 28px;
+  background: #dbffe5;
+  border-radius: 14px;
+}
+/*================== ADSON SLIDER STYLE ==================*/
+.box-heading {
+  background: rgba(196, 196, 196, 0.2);
+  width: 100%;
+  display: flex;
+  top: 0;
+  z-index: 2;
+  justify-content: space-between;
+}
+
+.boxNumber {
+  right: 0;
+  top: 0;
+  z-index: 3;
+}
+
+.overflow-x-hidden {
+  overflow: hidden;
+}
+.next-prev {
+  position: absolute;
+  top: 37%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+.next {
+  right: -10px;
+}
+.prev {
+  left: -10px;
+}
+/*============= SLIDER BOX STYLE  =============*/
+.like-info-box {
+  bottom: 0;
+  z-index: 6;
+}
+.adson-box {
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+}
+/*=============== SLIDER DOTS STYLE ===============*/
+
+.adson-slick-dots {
+  display: flex !important;
+  justify-content: center;
+}
+.adson-slick-dots li {
+  list-style: none;
+  width: 13px;
+  height: 13px;
+  margin: 14px 6px;
+  display: inline-block;
+  border-radius: 50%;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 20, 20, 0.24),
+      rgba(19, 20, 20, 0.24)
+    ),
+    rgba(19, 20, 20, 0.24);
+}
+.adson-slick-dots li.slick-active {
+  background: #0ed145;
+  cursor: pointer;
+}
+.adson-slick-dots li button {
+  opacity: 0;
+}
+.nft-label {
+  width: 49px;
+  height: 34px;
+  border-radius: 17px;
+  font-weight: 600;
+  font-size: 16px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.linear-gradient-orange {
+  background: linear-gradient(119.91deg, #ec9821 6.48%, #ffb752 89.54%);
+}
+.linear-gradient-green {
+  background: linear-gradient(117.33deg, #0ed145 5.38%, #00ff48 103.69%);
+}
+.linear-gradient-blue {
+  background: linear-gradient(123.7deg, #3a89ff 9.33%, #0066ff 100%);
+}
+/*================== NFT TABS STYLES  ==================*/
+.tabs {
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #131414;
+}
+.tabs a {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #131414;
+}
+.tabs.active {
+  font-weight: 600;
+}
+.tabs.active:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  width: 100%;
+  height: 6px;
+  border-radius: 10px;
+  background: #0ed145;
+}
+
+/*===================== SWITCH BUTTON STYLES  =====================*/
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: red;
+}
+
+.custom-checkbox label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  margin-left: -20px;
+  border: 1px solid #555;
+  border-radius: 3px;
+  background-color: #fff;
+  -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+  -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+  transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+/* .switch-btn {
+  box-sizing: border-box;
+  border-radius: 48.2408px;
+  height: 45.61px;
+  width: 281.55px;
+}
+.switch-btn.disabled {
+  border: 1.75421px solid #8f8f8f;
+}
+.switch-btn.active {
+  border: 1.75421px solid #0ed145;
+}
+.switch-sale-btn {
+  border-radius: 19.2963px;
+  font-weight: bold;
+  font-size: 15.7879px;
+  line-height: 24px;
+  height: 45.61px;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.8);
+} */
+/* .switch-sale-btn.disabled {
+  background: #8f8f8f;
+}
+
+.switch-sale-btn:hover {
+  color: #FFFFFF;
+} */
+
+/* .switch-sale-btn.active {
+  background: #0ed145;
+} */
+.upgrade-btn-box {
+  height: 73px !important;
+}
+.box-br {
+  border-radius: 0px 0px 10px 10px;
+}
+/*================== NFT BUY BUTTON STYLE  ===============*/
+.nft-buy-btn {
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 22.1156px;
+  height: 80.72px;
+  cursor: pointer;
+}
+
+.status-change {
+  border-radius: 33.1734px;
+  font-weight: 600;
+  font-size: 17.6925px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: -1px;
+}
+/*================= SWITCH TYPES BUTTON COLOR VARIANTS =================*/
+.orange-variant {
+  border: 2.21156px solid #ec9821;
+}
+.orange-variant .status-change {
+  background: #ec9821;
+}
+
+.green-variant {
+  border: 2.21156px solid #0ed145;
+}
+.green-variant .status-change {
+  background: #0ed145;
+}
+.disabled-variant {
+  border: 2.21156px solid #8f8f8f;
+}
+.disabled-variant .status-change {
+  background: #8f8f8f;
+}
+.dark-blue-variant {
+  border: 2.21156px solid #0b6c96;
+}
+.dark-blue-variant .status-change {
+  background: #0b6c96;
+}
+/*====================== UPGRADE LIST BOX STYLE ======================*/
+.upgrade-box {
+  border-radius: 10px 10px 0px 0px;
+}
+.upgrade-box img {
+  height: 144px;
+}
+.label-box {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+/*=================== UPGRADES BACKGROUND VARIANTS ===================*/
+.green-variant-bg {
+  background: linear-gradient(
+    180deg,
+    #689d77 0%,
+    rgba(14, 209, 69, 0) 100%,
+    rgba(58, 156, 86, 0.32) 100%
+  );
+}
+.light-blue-variant-bg {
+  background: linear-gradient(
+    180deg,
+    #68819d 0%,
+    rgba(77, 163, 169, 0.26) 99.48%
+  );
+}
+.light-purple-variant-bg {
+  background: linear-gradient(180deg, #555b8c 0%, rgba(14, 69, 209, 0.29) 100%);
+}
+.blue-100-variant-bg {
+  background: linear-gradient(
+    180deg,
+    #68819d 0%,
+    rgba(77, 163, 169, 0.26) 99.48%
+  );
+}
+
+/*========================== YOU OWN SECTION STYLE  ==========================*/
+.youown-section {
+  background: #bce4fa;
+  position: relative;
+}
+
+.youown-section {
+  transition: 0.5s bottom;
+  position: sticky;
+  z-index: 999;
+  opacity: 0.9;
+  bottom: var(--basketH);
+  box-shadow: 0px -1px 4px rgb(0 0 0 / 25%);
+}
+
+.youown-section.visible {
+  display: block;
+}
+
+.youown-section {
+  bottom: 0;
+}
+
+/*================== NFT FOOTER SECTION STYLE ==================*/
+
+.nft-footer {
+  background-color: #e3f5ff !important;
+}
+/*================== HARVESTABLE RESOURCES SECTION ==================*/
+
+.harvestable {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.light-line {
+  border-bottom: 1px solid #cccccc !important;
+}
+.arrrow-icon {
+  transition: 0.2s ease-in-out;
+}
+.arrrow-icon.rotate {
+  transform: rotate(180deg);
+}
+
+.annual-yield-popup {
+  position: fixed;
+  top: 50%;
+  border-radius: 20px;
+  left: 50%;
+  background-color: white;
+  z-index: 10;
+  transform: translate(-50%, -50%) !important;
+}
+.popup-overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  z-index: 9;
+  background: rgba(0, 0, 0, 0.644);
+}
+
+.model-wrapper {
+  max-width: 781px;
+  width: 100%;
+}
+
+.model-post-box {
+  background: linear-gradient(180deg, #555b8c 0%, rgba(14, 69, 209, 0.29) 100%);
+  border-radius: 10px;
+}
+
+.top-43 {
+  top: 43%;
+}
+
+@media (max-width: 992px) {
+  .annual-yield-popup {
+    width: 90%;
+  }
+}
+
+/*================= Marketplace PAGE  =================*/
+.search-input input:focus {
+  outline: none;
+}
+.search-input {
+  width: 296px !important;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding-left: 32px;
+  padding-right: 17px;
+  border-radius: 13.1623px;
+}
+
+.search-input input {
+  color: #a9a9a9;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.search-input input::placeholder {
+  color: #a9a9a9;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.marketplace-selection {
+  width: 55px;
+}
+
+.marketplace-selection svg {
+  right: 0px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#marketplace-sort {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  left: 0px;
+  top: 50%;
+  z-index: 17;
+  transform: translate(0, -50%);
+  cursor: pointer;
+}
+
+#marketplace-sort::-ms-expand {
+  display: none;
+}
+
+#marketplace-sort:focus-visible {
+  outline: none;
+}
+/*================ NFT LIST BOX STYLE ================*/
+.list-box {
+  height: 255px;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.list-box-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.select-list-box {
+  background: #e4e4e4;
+  border-radius: 0px 0px 10px 10px;
+}
+.ready {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 3;
+}
+.ready span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+.select-list-box {
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 0px 0px 10px 10px;
+  color: #898989;
+}
+.pagination-wrapper span {
+  width: 35.61px;
+  height: 35.61px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: normal;
+  font-size: 16.5615px;
+  color: #333333;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0 4px;
+}
+.pagination-wrapper span.active {
+  background: #0ed145;
+  color: white;
+}
+
+.harvestable-card .form-check-input:checked {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: none;
+}
+
+.btn-buy-resources {
+  color: #bce4fa;
+  font-weight: 500;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: 0.3s ease-in-out;
+}
+
+.btn-buy-resources:hover {
+  box-shadow: 2px 2px 4px rgb(0 0 0 / 66%);
+}
+.scrollbar-style::-webkit-scrollbar {
+  width: 8px; /* width of the entire scrollbar */
+}
+
+.scrollbar-style::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+.scrollbar-style::-webkit-scrollbar-thumb {
+  background-color: #c1c1c1; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 4px solid white; /* creates padding around scroll thumb */
+}
+
+/* CARDS HOVER ANIMATION  */
+.cards-hover-animation {
+  transition: all 0.3s ease-in;
+}
+.cards-hover-animation:hover {
+  box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.527);
+  /* transform: translate(-5px, -5px); */
+}
+
+.spinner-border {
+  color: #0ed145;
+}
+
+/* CARDS HOVER ANIMAITON  */
+.buy-or-upgrade-btn.green:hover {
+  background-color: transparent;
+  /* box-shadow: 0px 1px 13px #8f8f8f; */
+  color: #0ed145;
+}
+.buy-or-upgrade-btn.yellow:hover {
+  background-color: transparent;
+  /* box-shadow: 0px 1px 13px #8f8f8f; */
+  color: #f1b258;
+}
+.buy-or-upgrade-btn.blue:hover {
+  background-color: transparent;
+  /* box-shadow: 0px 1px 13px #8f8f8f; */
+  color: #40bef6;
+}
+
+.buy-or-upgrade-btn.dark-blue:hover {
+  background-color: transparent;
+  /* box-shadow: 0px 1px 13px #8f8f8f; */
+  color: #0b6c96;
+}
+
+.buy-or-upgrade-btn.light-yellow:hover {
+  background-color: transparent;
+  /* box-shadow: 0px 1px 13px #8f8f8f; */
+  color: #f9c710;
+}
+.buy-or-upgrade-btn.light-blue:hover {
+  background-color: transparent;
+  /* box-shadow: 0px 1px 13px #8f8f8f; */
+  color: #1eceae;
+}
+.btn-switch-sale:hover {
+  /* box-shadow: 0px 1px 13px #8f8f8f; */
+  background: transparent;
+  color: #0ed145;
+}
+.nav-btn:hover {
+  /* box-shadow: 0px 1px 13px #8f8f8f; */
+  color: #0ed145;
+  background: white;
+}
+.nav-btn.auth {
+  width: 100% !important;
+}
+.info-icon svg path {
+  transition: all 0.2s ease-in-out;
+}
+.info-icon:hover svg path {
+  fill-opacity: 1 !important;
+}
+.btn-repair-allow:hover {
+  color: #ffff;
+}
+.btn-repair-allow:hover {
+  /* box-shadow: 0px 1px 13px #8f8f8f; */
+  color: #0ed145;
+  background: white;
+}
+
+.button-spinner {
+  margin-bottom: 4px;
+}
+.back-icon {
+  width: 16px;
+  height: 16px;
+}
+@media (max-width: 770px) {
+  .youown-section {
+    bottom: auto;
+  }
+}
+@media (max-width: 400px) {
+  .text-black-900 {
+    font-size: 12px;
+  }
+  .back-icon {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+.min-h-180 {
+  min-height: 180px;
+}
+
+@media (max-width: 1199.98px) {
+  .current-image-dimensions {
+    height: 351.33px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .current-image-dimensions {
+    height: 261.25px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .current-image-dimensions {
+    height: 387.86px;
+  }
+}
+@media (max-width: 575.98px) {
+  .current-image-dimensions {
+    height: auto !important;
+  }
+}
+@media (max-width: 470px) {
+  .header-btn-group {
+    width: 70%;
+  }
+}

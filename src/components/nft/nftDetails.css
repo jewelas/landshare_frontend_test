@@ -1,0 +1,180 @@
+.nft-house {
+  margin-top: 18px;
+  padding: 0px 1px;
+}
+
+.nft-house .property-title {
+  margin: 0px 0px 0px 0px;
+  font-size: var(--xxl);
+}
+
+/* .nft-house .for-sale {
+  margin-top: 15px;
+  margin-right: 18px;
+} */
+
+.nft-house .property-divider {
+  margin: 0px 8px;
+}
+
+.nft-title-section {
+  min-height: 45px;
+}
+
+.status-name-section {
+  transform: translate(0, -50%);
+  top: 50%;
+  right: 10px;
+}
+
+.nft-house-action-status {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nft-house-image {
+  width: 391px !important;
+  height: 391px;
+}
+
+.now-reparing-status {
+  width: 163px;
+}
+
+.now-reparing-status span {
+  margin-top: 2px;
+}
+
+.deposite-input-box{
+  display: flex;
+  justify-content: center;
+}
+
+.deposite-input-box .input-cost {
+  max-width: 300px;
+  /* top: 50%; */
+  /* transform: translate(0, -50%); */
+}
+
+.switch-btn {
+  width: 282px !important;
+  border: 1.5px solid #0ed145;
+  border-radius: 48.2408px;
+}
+
+.harvestable-resources {
+  padding-top: 10px;
+  padding-bottom: 12px;
+}
+
+.harvest-cost .switch-btn {
+  height: 40px;
+}
+
+.btn-switch-sale {
+  right: -1px;
+  background-color: #0ed145;
+  border: 1px solid #0ed145;
+  border-radius: 24px;
+  height: 40px;
+  width: 159px;
+  color: #ffffff;
+  transition: 0.4s ease;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.btn-repair {
+  right: -1px;
+  border-radius: 24px !important;
+  font-weight: 700;
+  width: 145px;
+  height: 44px;
+  color: #ffffff;
+  transition: 0.4s ease;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+
+.btn-repair-allow {
+  background-color: #0ed145;
+  border: 2px solid #0ed145;
+}
+
+.btn-repair-disable {
+  background-color: #8f8f8f;
+  border: 2px solid #8f8f8f;
+}
+
+.btn-repair-disable:hover {
+  color: #ffff;
+}
+
+.nft-house-action-status-actions {
+  margin-left: 1.5rem;
+}
+.button-group{
+  justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  .nft-house-action-status-actions {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 760px) {
+  .nft-house-action-status {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nft-house-image {
+    width: 100% !important;
+    height: auto !important;
+    /* min-height: 391px !important; */
+  }
+
+  .nft-house {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+  }
+
+  .nft-house-action-status-actions {
+    margin-left: 0px;
+  }
+}
+.nft-house .house-desc {
+  padding: 14px 0px 21px 0px;
+}
+@media (max-width: 576px) {
+  .nft-house .property-title {
+    margin: 0px 0px 0px 0px;
+    font-size: var(--xxl);
+    font-size: 24px;
+  }
+
+  .nft-title-edit-section input {
+    font-size: 24px;
+  }
+
+  .nft-house-action-status-actions {
+    margin-left: 0px;
+  }
+
+  .nft-house .house-desc {
+    padding: 14px 0px 21px 0px;
+  }  
+}
+.btn_active{
+  position: absolute;
+  transform: translate(-50%, 0);
+  bottom: 0;
+  left: 50%;
+  margin-bottom: 0.9rem;
+}
+
+.activate-disable {
+  border-color: #8f8f8f;
+}

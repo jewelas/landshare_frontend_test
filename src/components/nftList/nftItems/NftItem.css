@@ -1,0 +1,98 @@
+.nft-house-item {
+  -webkit-animation: fadeIn;
+  animation: fadeIn;
+  opacity: 1;
+  -webkit-animation-duration: 1.2s;
+  animation-duration: 1.2s;
+  border-radius: 16px;
+  overflow: hidden;
+  max-width: 251px;
+}
+
+.nft-card-current-multipler {
+  padding-right: 10px;
+  padding-left: 10px;
+  bottom: 10px;
+}
+
+.nft-house-item .current-multiplier .value {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  vertical-align: text-bottom;
+  line-height: 18px;
+}
+
+.nft-house-item .current-multiplier .label {
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 600;
+  padding-left: 2px;
+  vertical-align: text-bottom;
+}
+
+.nft-house-title {
+  background: rgba(196, 196, 196, 0.2);
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 16px;
+}
+
+.nft-house-header {
+  height: 249px;
+}
+
+.nft_img{
+  width: 249px;
+  height: 249px;
+}
+
+.nft-house-body {
+  background: rgba(111, 142, 157, 0.4);
+  padding: 12px !important;
+}
+
+.nft-house-durability .house-item-label1 {
+  width: 50% !important;
+}
+
+.nft-house-durability .progress-content-show {
+  width: 50% !important;
+}
+
+.house-item-label1 {
+  color: #0b6c96;
+}
+
+.house-item-label2 {
+  color: #0b6c96;
+}
+
+.nft-house-facility-level {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+}
+
+.nft-house-facility-haslevel {
+  color: #767e82;
+}
+
+.nft-house-facility-nonelevel {
+  color: #767e8280;
+}
+
+.house-item-value {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.nft-house-selectable button {
+  width: 131px;
+  height: 40px;
+}
+
+@media (max-width: 760px) {
+  .nft-house-item {
+    margin: auto;
+  }
+}

@@ -1,0 +1,653 @@
+.bg-f5fff7 {
+  background-color: #f5fff7;
+}
+
+.bg-E3F5FF {
+  background-color: #e3f5ff;
+}
+
+.bg-e9f4ee {
+  background-color: #EAFBEA;
+}
+
+.h-58 {
+  height: 58px;
+}
+.max-w-718 {
+  max-width: 718px;
+}
+.w-137 {
+  width: 137px;
+}
+
+.rounded-10 {
+  border-radius: 10px;
+}
+
+.px-35 {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.btn-card {
+  border: 3px solid #0ed145;
+  color: #0ed145;
+  background-color: white;
+  font-weight: 600;
+  height: 57px;
+  font-size: 18px;
+  width: 157px;
+  border-radius: 31px;
+  transition: background-color 0.5s;
+}
+
+.btn-withdraw {
+  border: 2px solid #6fcf97;
+  color: #fff;
+  background-color: #6fcf97;
+  font-weight: 600;
+  height: 36px;
+  font-size: 10.01px;
+  width: 79.49px;
+  border-radius: 10px;
+  transition: background-color 0.5s;
+}
+
+.btn-lockVaults {
+  border: 3px solid blue;
+  color: transparent;
+  background-color: transparent;
+  font-weight: 600;
+  height: 36px;
+  font-size: 10.01px;
+  opacity: 0.5;
+  width: 79.49px;
+  border-radius: 10px;
+  transition: background-color 0.5s;
+}
+
+.btn-withdraw:hover {
+  background-color: #fff;
+  color: #6fcf97;
+}
+
+.btn-card:hover {
+  background-color: #0ed145;
+  color: white;
+}
+
+.w-191 {
+  width: 191px !important;
+}
+
+.min-h-200 {
+  min-height: 200px;
+}
+
+.min-h-700 {
+  min-height: 700px;
+}
+
+@media (max-width: 575.98px) {
+  .min-h-sm-200 {
+    min-height: 200px;
+  }
+}
+
+.max-w-100 {
+  max-width: 100%;
+}
+
+.max-w-539 {
+  max-width: 539px;
+}
+
+.w-111 {
+  width: 111px;
+}
+
+.h-195 {
+  height: 195px;
+}
+
+.h-205 {
+  height: 205px;
+}
+
+.h-207 {
+  height: 207px;
+}
+
+.h-200 {
+  height: 200px;
+}
+
+.currentApr {
+  height: 0px;
+  overflow: hidden;
+  display: none;
+  transition: 0.3s;
+}
+
+.currentApr.active {
+  height: 175px;
+  overflow: hidden;
+  display: flex;
+}
+
+button.currentAprBtn:focus {
+  box-shadow: none !important;
+}
+
+.currentAprBtn:hover span,
+.currentAprBtn:hover svg {
+  color: #198754;
+}
+
+.currentAprBtn.active span,
+.currentAprBtn.active svg {
+  color: #198754;
+}
+
+.property-img {
+  max-height: 100%;
+  height: 148px;
+}
+
+.backdrop-filter-130 {
+  backdrop-filter: blur(130px);
+}
+
+.br-1-255 {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.br-30 {
+  border-radius: 30px;
+}
+
+.bg-white_31 {
+  background: rgba(255, 255, 255, 0.31);
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bgwhite_31 {
+  background: rgba(255, 255, 255, 0.31);
+}
+
+.bg-002D66 {
+  background-color: #002d66;
+}
+
+.text-002D66 {
+  color: #002d66;
+}
+
+.withdraw-all-btn {
+  background-color: #6fcf97;
+  border: 1px solid #6fcf97;
+  border-radius: 10px;
+  padding: 5px 20px;
+  color: #ffffff;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  font-weight: 600;
+  width: 80px;
+  white-space: nowrap;
+  height: 40px;
+  font-size: 10px;
+}
+
+.withdraw-all-btn:hover {
+  background-color: white;
+  color: #6fcf97;
+}
+
+.bg-0ed145 {
+  background-color: #0ed145;
+}
+
+.text-0ed145 {
+  color: #0ed145;
+}
+
+.w-123 {
+  width: 123px;
+}
+
+.w-117 {
+  width: 117px;
+}
+
+.bg-attachment-fixed {
+  background-attachment: fixed;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+@media (min-width: 1400px) {
+  /* .max-h-xxl-125vh {
+    max-height: 125vh !important;
+  } */
+  .fs-xl-18 {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pb-xl-1_2 {
+    padding-bottom: 1.2rem !important;
+  }
+  .pb-xl-1_8 {
+    padding-bottom: 1.8rem !important;
+  }
+  .h-xl-63_6 {
+    height: 63.6px;
+  }
+}
+
+.px-xs-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 575.98) {
+  .px-sm-35 {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .h-sm-195 {
+    height: 195px;
+  }
+}
+
+.text-002D66 {
+  color: #002d66;
+}
+
+.text-4d4d4d {
+  color: #4d4d4d;
+}
+
+.livecoinwatch-widget-6 {
+  height: unset !important;
+  max-width: 100%;
+  text-decoration: none !important;
+  
+}
+
+.livecoinwatch-widget-6-hidden {
+  display: none
+}
+
+@media (max-width: 350px) {
+  .livecoinwatch-widget-6 a > div {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .livecoinwatch-widget-6 a > div img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+  .livecoinwatch-widget-6 a > div * {
+    text-align: center !important;
+    margin-left: unset !important;
+    margin-right: unset !important;
+  }
+}
+
+.livecoinwatch-widget-6 a > div {
+  display: flex;
+  height: unset !important;
+}
+
+/* .underline-color:hover {
+  text-decoration: underline;
+  text-decoration-color: #002d66;
+  -webkit-text-decoration-color: #002d66;
+} */
+
+.br-10 {
+  border-radius: 10px;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.py-2px {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.h-57 {
+  height: 57px;
+}
+
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.border-bottom-1 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.white-space-nowrap {
+  white-space: nowrap;
+}
+
+.max-2-252_62 {
+  max-width: 252.62px;
+}
+
+.max-w-150 {
+  max-width: 150px;
+}
+
+.max-w-170 {
+  max-width: 170px;
+}
+
+.busd-img {
+  width: 135px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.input-foucs-visible-outline:focus-visible {
+  outline: none !important;
+}
+
+
+
+.outline-none {
+  outline: none;
+}
+
+.color-6FCF97 {
+  color: #6fcf97;
+}
+
+.max-input {
+  background: linear-gradient(
+    92.7deg,
+    #ffffff 3.1%,
+    rgba(255, 255, 255, 0.8) 100%
+  );
+  border-radius: 13.4729px;
+}
+
+.h-37_72 {
+  height: 37.72px;
+}
+
+@media (min-width: 767px) and (max-width: 991.98px) {
+  .w-md-45 {
+    width: 45% !important;
+  }
+  .fs-md-11 {
+    font-size: 11px !important;
+  }
+  .w-45 {
+    width: 45% !important;
+  }
+  .white-space-nowrap-sm {
+    white-space: nowrap;
+  }
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.fs-13_47 {
+  font-size: 13.47px;
+}
+
+.fs-12_13 {
+  font-size: 12.13px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-8_08 {
+  font-size: 8.08px;
+}
+
+.fs-13 {
+  font-size: 13px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.max-w-350 {
+  max-width: 350px;
+}
+
+.mb-5px {
+  margin-bottom: 5px;
+}
+
+.h-65 {
+  height: 65px;
+}
+
+.py-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.link-underline a {
+  text-decoration: none;
+}
+
+.vote-hover:hover {
+  border-bottom: 1.5px solid #0ed145;
+}
+
+.transition-0_3sease {
+  transition: 0.3s ease;
+}
+
+.glass-bg-capacity {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.box-shadow-nav {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.list-items-header {
+  display: flex;
+  align-items: center;
+}
+
+.list-items-header ul {
+  list-style-type: none;
+}
+
+.bg-219653 {
+  background-color: #219653 !important;
+}
+
+.card-wrapper-vault {
+  background: linear-gradient(
+    168.32deg,
+    rgba(255, 255, 255, 0.676) 0.96%,
+    rgba(255, 255, 255, 0.792) 99.08%
+  );
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 26.9458px;
+  min-width: 300px;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .pb-lg-xl-2rem {
+    padding-bottom: 2rem !important;
+  }
+  .mb-lg-12 {
+    margin-bottom: 12px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .pb-md-lg-2_2rem {
+    padding-bottom: 2rem !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .pb-lg-xl-2rem {
+    padding-bottom: 2.2rem !important;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 991.98px) {
+  .max-w-sm-lg-300 {
+    max-width: 375px;
+  }
+}
+
+@media (min-width: 992px) {
+  .max-w-lg-350 {
+    max-width: 350px;
+  }
+}
+
+.br-25 {
+  border-radius: 25px;
+}
+
+@media (min-width: 1600px) {
+  .mr-xxxl-85 {
+    margin-right: 85px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mr-xl-10 {
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .mr-xxl-30 {
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .fs-xs-12 {
+    font-size: 12px !important;
+  }
+  .fs-xs-14 {
+    font-size: 14px !important;
+  }
+  .fs-xs-18 {
+    font-size: 18px !important;
+  }
+  .withdraw-all-btn {
+    width: 80px;
+  }
+  .max-w-xs-300 {
+    max-width: 300px;
+  }
+  .w-xs-100per {
+    width: 100% !important;
+  }
+  .w-xs-30per {
+    width: 30% !important;
+  }
+  .w-xs-60per {
+    width: 60% !important;
+  }
+}
+
+@media (max-width: 810px) {
+  .m-below-md-auto {
+    margin: auto;
+  }
+}
+
+@media (min-width: 1600px) {
+  .fs-xxxl-14 {
+    font-size: 14px !important;
+  }
+  .fs-xxxl-16 {
+    font-size: 16px !important;
+  }
+  .fs-xxxl-18 {
+    font-size: 18px !important;
+  }
+  .fs-xxxl-20 {
+    font-size: 20px !important;
+  }
+  .max-w-xxxl-200 {
+    max-width: 200px;
+  }
+  .btn-withdraw {
+    font-size: 12px;
+    width: 90px;
+    height: 38px;
+  }
+}
+
+.error {
+  font-weight: 700;
+  font-size: 93px;
+}
+
+.not-found {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.my-15px {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-sm-80per {
+  width: 80%;
+}
+
+.w-xs-100 {
+  width: 100% !important;
+}
+
+@media (min-width: 577px) and (max-width: 991.98px) {
+  .ml-auto-sm-xl {
+    margin-left: auto;
+  }
+}
+
+
+
+.noticeText {
+  color: black !important; 
+}

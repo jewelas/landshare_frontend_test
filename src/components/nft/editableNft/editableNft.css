@@ -1,0 +1,27 @@
+.nft-title-edit-section {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding-left: 15px;
+  border-radius: 10px;
+  padding-right: 60px;
+  overflow: hidden;
+  width: 380px;
+}
+
+.nft-title-edit-section input {
+  border: none;
+  width: 300px;
+}
+
+.nft-title-edit-section input:focus-visible {
+  border: none;
+  outline: none;
+}
+
+.nft-title-edit-section .check-mark {
+  height: 20px;
+  margin-right: 5px;
+}
+
+.nft-title-edit-section .cross-close {
+  height: 18px;
+}

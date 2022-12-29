@@ -1,0 +1,69 @@
+.nav-tabs {
+  justify-content: space-between;
+}
+.mainTabs-styles .nav {
+  flex-wrap: nowrap;
+  overflow-y: hidden;
+  overflow-x: auto;
+  margin-bottom: 5px;
+}
+.nav-tabs a {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000b3;
+  white-space: nowrap;
+}
+
+.nav-tabs .nav-link:focus-visible {
+  outline-offset: 0px;
+  outline-width: 0px;
+}
+
+.nav-tabs .nav-link {
+  border: 0px !important;
+  margin-bottom: -3px;
+}
+
+.nav-tabs .nav-link:hover {
+  color: #000000 !important;
+  border: 0px !important;
+  border-bottom: 4px solid #000000b3 !important;
+}
+
+.nav-tabs .nav-link:focus {
+  color: #000000 !important;
+  border: 0px !important;
+  border-bottom: 4px solid #000000b3 !important;
+}
+
+.nav-tabs .nav-link.active {
+  color: #000000 !important;
+  border: 0px !important;
+  border-bottom: 4px solid #000000 !important;
+}
+
+@media (max-width: 1200px) {
+  .mainTabs-styles .nav {
+    padding: 0 0 15px 0 ;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .mainTabs-styles .nav-item {
+    font-size: 20px;
+  }
+}
+@media (max-width: 991.98px) {
+  .mainTabs-styles .nav-item {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767.98px) {
+  .mainTabs-styles .nav-item {
+    font-size: 14px;
+    padding: 8px 5px;
+  }
+  .nav-tabs .nav-link {
+    margin : 0 20px 0 0
+  }
+}

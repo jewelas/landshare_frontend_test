@@ -1,0 +1,231 @@
+.buy-or-upgrade-section {
+  height: 130px;
+  border-radius: 25px;
+  background-color: #ffffff;
+}
+
+.buy-or-upgrade-section .divider {
+  border-color: #d7d7d7;
+  margin: 8px 0px;
+}
+
+.buy-or-upgrade-section.grey {
+  border: 2px solid #8f8f8f;
+}
+
+.buy-or-upgrade-section.green {
+  border: 2px solid #0ed145;
+}
+
+.buy-or-upgrade-section.yellow {
+  border: 2px solid #ec9821;
+}
+
+.buy-or-upgrade-section.blue {
+  border: 2px solid #00a8f3;
+}
+
+.buy-or-upgrade-section.dark-blue {
+  border: 2px solid #0b6c96;
+}
+
+.buy-or-upgrade-section.light-yellow {
+  border: 2px solid #f9c710;
+}
+
+.buy-or-upgrade-section.light-blue {
+  border: 2px solid #1eceae;
+}
+
+.buy-or-upgrade-section.dark {
+  height: 130px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  border: 2px solid #8F8F8F;
+}
+.buy-or-upgrade-section.disable {
+  height: 130px;
+  border-radius: 25px;
+  background-color: #ffffff50;
+  border: 2px solid #8f8f8f50;
+}
+
+.facility-value-content-header {
+  padding-top: 12px !important;
+}
+
+.facility-value-content {
+  padding: 0px 14px;
+}
+
+.facility-value-content .divider {
+  margin: 7px 0px;
+}
+
+.status-label {
+  color: #6f8e9d;
+  font-weight: 600;
+  font-size: 10px;
+  margin-left: 4px;
+  padding-right: 2px;
+}
+
+.status-value1 {
+  font-weight: 600;
+  font-size: 12px;
+  color: #323131;
+  margin-right: 4px;
+}
+
+.status-production {
+  font-weight: 600;
+  font-size: 14px;
+  color: #323131;
+}
+
+.status-production-disable {
+  font-weight: 600;
+  font-size: 12px;
+  color: #8f8f8f50;
+}
+.status-production-grey {
+  font-weight: 600;
+  font-size: 12px;
+  color: #8f8f8f;
+}
+.status-production-yellow {
+  font-weight: 600;
+  font-size: 12px;
+  color: #323131;
+}
+
+.status-value .disable {
+  color: #00000080;
+}
+
+.status-value2 {
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 18px;
+  color: #323131;
+  margin-left: 2px;
+}
+
+.buy-or-upgrade-btn {
+  bottom: -1px;
+  height: 45px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.buy-or-upgrade-btn.grey {
+  background-color: #8f8f8f;
+  border-color: #8f8f8f;
+  border: 2px solid #8f8f8f;
+}
+.buy-or-upgrade-btn.grey:hover {
+  background-color: transparent;
+  color: #8f8f8f;
+}
+
+.buy-or-upgrade-btn.disable {
+  background-color: #8f8f8f50;
+  border-color: #8f8f8f50;
+}
+.buy-or-upgrade-btn.disable:hover {
+  background-color: transparent;
+  color: #8f8f8f50;
+}
+
+
+
+.buy-or-upgrade-btn.green {
+  background-color: #0ed145;
+  border-color: #0ed145;
+  border: 2px solid #0ed145;
+}
+
+.buy-or-upgrade-btn.yellow {
+  background-color: #ec9821;
+  border-color: #ec9821;
+  border: 2px solid #ec9821;
+}
+
+.buy-or-upgrade-btn.blue {
+  background-color: #00a8f3;
+  border-color: #00a8f3;
+  border: 2px solid #00a8f3;
+}
+
+.buy-or-upgrade-btn.dark-blue {
+  background-color: #0b6c96;
+  border-color: #0b6c96;
+  border: 2px solid #0b6c96;
+}
+
+.buy-or-upgrade-btn.light-yellow {
+  background-color: #f9c710;
+  border-color: #f9c710;
+  border: 2px solid #f9c710;
+}
+
+.buy-or-upgrade-btn.light-blue {
+  background-color: #1eceae;
+  border-color: #1eceae;
+  border: 2px solid #1eceae;
+}
+
+.upgrade-last {
+  font-weight: 700;
+  color: #1eceae;
+}
+
+.upgrade-status {
+  font-weight: 600;
+}
+
+.upgrade-value {
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.next-cost-icons {
+  min-width: 20px;
+}
+
+.yield-cost-value {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.yield-cost-value.grey {
+  color: #00000080;
+}
+
+.status-value .grey {
+  color: #00000080;
+}
+
+.status-value1-land {
+  font-size: 8px;
+  font-weight: 600;
+}
+
+.btn:disabled {
+  opacity: 1;
+}
+
+.yield-upgrade-cost .buy-or-upgrade-section {
+  padding-top: 12px;
+}
+
+.yield-upgrade-cost .buy-or-upgrade-section .yield-cost-value-content {
+  padding: 0px 10px;
+}
+
+.yield-upgrade-cost
+  .buy-or-upgrade-section
+  .yield-cost-value-content
+  .status-label {
+  padding-top: 3px;
+}

@@ -1,0 +1,83 @@
+.harvestable-section {
+  display: grid;
+  grid-template-columns:
+    minmax(200px, max-content) minmax(200px, max-content) minmax(200px, max-content)
+    minmax(200px, max-content) minmax(200px, max-content);
+  justify-content: space-between;
+  row-gap: 4rem;
+}
+
+.modal_content {
+  display: flex!important;
+  align-items: center;
+}
+.modal_body{
+  padding: 20px;
+  max-width: 300px;
+}
+.modal_header{
+  font-size: 15px;
+  text-align: center;
+}
+.modal_buttons{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.modal_buttons_yes{
+  flex: 1;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #00a8f3;
+  background-color: #00a8f3;
+  color: #fff;
+}
+.modal_buttons_no{
+  flex: 1;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  border-color: #00a8f3;
+  border-style: solid;
+}
+
+@media (max-width: 1200px) {
+  .harvestable-section {
+    display: grid;
+    grid-template-columns: minmax(200px, max-content) minmax(200px, max-content) 
+    minmax(200px, max-content) minmax(200px, max-content);
+    justify-content: space-between;
+    row-gap: 4rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .harvestable-section {
+    display: grid;
+    grid-template-columns: minmax(200px, max-content) minmax(200px, max-content) minmax(200px, max-content);
+    justify-content: space-between;
+    row-gap: 4rem;
+  }
+}
+
+@media (max-width: 770px) {
+  .harvestable-section {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    padding: 0 0 20px 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .harvestable-section {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    padding: 0 0 20px 0;
+  }
+}

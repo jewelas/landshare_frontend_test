@@ -1,0 +1,122 @@
+.reparing-section {
+  flex-wrap: nowrap;
+  padding-right: 125px;
+}
+
+.main-reparing-cost {
+  flex: 1 1 auto;
+  border-radius: 2rem;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  padding: 0rem 0.75rem;
+  padding-right: 1.5rem;
+}
+
+.main-reparing-cost-disable {
+  border: 2px solid #8f8f8f;
+  border-right: 0px;
+  padding-right: 0px;
+}
+
+.main-reparing-cost-allow {
+  border: 2px solid #0ed145;
+  border-right: 0px;
+  padding-right: 0px;
+}
+
+.main-reparing-cost span {
+  display: inline-flex;
+  align-items: center;
+}
+
+.repair-cost-disable {
+  border-left: 1px solid #8f8f8f;
+  border-radius: 48px;
+}
+
+.repair-cost-allow {
+  border-left: 1px solid #0ed145;
+  border-radius: 48px;
+}
+
+/* .btn-reparing {
+  border: 2px solid #8f8f8f;
+  border-radius: 20px;
+} */
+
+/* .reparing-section {
+  border: 2px solid #8f8f8f;
+  border-radius: 20px;
+  padding-right: 150px
+} */
+
+.cost-resource span {
+  padding-right: 2px;
+}
+
+.dropdown-list-style button {
+  background-color: transparent !important;
+  border: none !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0.375rem 2px !important;
+}
+.dropdown-list-style button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.dropdown-list-style .dropdown-toggle {
+  color: #000000 !important;
+}
+.dropdown-list-style .dropdown-toggle::after {
+  border: none !important;
+  content: "";
+  background-image: url("../../../assets/img/icons/dropdownImage.svg");
+  background-size: contain;
+  font-size: 12px;
+  height: 8px;
+  width: 13px;
+  color: rgb(0, 89, 255) !important;
+  background-repeat: no-repeat;
+}
+.dropdown-list-style .dropdown-menu {
+  box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.808) !important;
+  border: none !important;
+  border-radius: 12px !important;
+}
+.dropdown-list-style .dropdown-menu {
+  min-width: 4rem !important;
+}
+
+@media (max-width: 767.98px) {
+  .main-reparing-cost-disable {
+    border: 2px solid #8f8f8f;
+    border-top-right-radius: 30px!important;
+    border-bottom-right-radius: 30px!important;
+  }
+  .main-reparing-cost-allow {
+    border: 2px solid #0ed145;
+    border-top-right-radius: 30px!important;
+    border-bottom-right-radius: 30px!important;
+  }
+}
+
+@media (max-width: 576.98px) {
+  .reparing-section {
+    padding-right: 0;
+  }
+  /* .main-reparing-cost-allow {
+    border: 2px solid #0ed145;
+    border-radius: 2rem !important;
+  } */
+  .mobile-reparing-section {
+    height: 44px;
+  }
+  .mobile-reparing-section .repair-cost {
+    padding-right: 130px;
+  }
+  .mobile-reparing-section .btn-repair {
+    top: 0;
+  }
+}

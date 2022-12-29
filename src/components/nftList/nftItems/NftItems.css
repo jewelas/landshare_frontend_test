@@ -1,0 +1,110 @@
+.nft-houses-list {
+  display: grid;
+  grid-template-columns:
+    minmax(251px, max-content) minmax(251px, max-content) minmax(
+      251px,
+      max-content
+    )
+    minmax(251px, max-content);
+  justify-content: space-between;
+  row-gap: 4rem;
+}
+.no-item-ui{
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-bottom: 120px;
+}
+.no-item-text{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.no-item-hyper{
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  margin-right: 5px;
+}
+.no-item-link{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 1200px) {
+  .nft-houses-list {
+    display: grid;
+    grid-template-columns: minmax(251px, max-content) minmax(251px, max-content) minmax(
+        251px,
+        max-content
+      );
+    justify-content: space-between;
+    row-gap: 4rem;
+  }
+}
+
+@media (max-width: 995px) {
+  /* .nft-houses-list {
+    display: grid;
+    grid-template-columns: minmax(251px, max-content) minmax(251px, max-content);
+    justify-content: space-between;
+    row-gap: 4rem;
+  } */
+  .nft-houses-list {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    padding: 0 0 20px 0;
+  }
+  .m-margin{
+    margin : 0px 40px 0px 0px;
+  }
+}
+
+@media (max-width: 770px) {
+  .nft-houses-list {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    padding: 0 0 20px 0;
+  }
+  .m-margin{
+    margin : 0px 40px 0px 0px;
+  }
+}
+
+@media (max-width: 400px) {
+  .nft-houses-list {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+  }
+  .m-margin{
+    margin : 0px 20px 0px 0px;
+  }
+}
+
+.pagination li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.pagination .previous {
+  transform: rotate(180deg);
+}
+
+.pagination .active {
+  color: #0ed145;
+}
+
+.pagination .disabled a svg path {
+  opacity: 0.4 !important;
+}
+
+.marketplace-bar {
+  min-width: 697px;
+  overflow: auto;
+}

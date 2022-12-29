@@ -1,0 +1,89 @@
+.top-bar {
+  margin-top: 30px;
+}
+
+/* .top-bar-tabs {
+  margin-left: -6px;
+} */
+
+.top-bar-tabs .tabs:hover {
+  font-weight: 500;
+}
+.max-w-530 {
+  max-width: 530px;
+}
+.top-bar-tabs .tabs:hover:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  width: 100%;
+  height: 6px;
+  background: #81db9b;
+}
+
+.back-to-list {
+  margin-top: 49px;
+  margin-left: 6px;
+  color: #131414 !important;
+}
+
+.tabs-list span {
+  margin-right: 20px;
+  padding-right: 5px;
+}
+@media (max-width: 576px) {
+  .tabs-list {
+    margin-top: 10px !important;
+    margin-bottom: 0px !important;
+  }
+  .tabs-list .tabs {
+    font-weight: normal;
+    font-size: 12.5px;
+  }
+  .tabs-list .tabs a {
+    font-weight: normal;
+    font-size: 12.5px;
+  }
+  .tabs-list span {
+    margin-right: 8px;
+    padding-right: 2px;
+  }
+  .search-input {
+    width: 200px !important;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .search-input input,
+  .search-input input::-webkit-input-placeholder {
+    font-size: 14px !important;
+  }
+  .scrollbar-style label {
+    font-size: 13.769px;
+
+    color: #000000;
+
+    opacity: 0.5;
+  }
+  .back-to-list {
+    margin-top: 5px;
+  }
+}
+.tabs-list .tabs {
+  position: relative;
+}
+
+.tabs-list .tabs:not(.active):after {
+  position: absolute;
+  content: "";
+  bottom: 5px;
+  left: 0;
+  height: 6px;
+  width: 0%;
+  transition: all 0.3s ease-in-out;
+  background: #656565;
+  border-radius: 10px;
+}
+.tabs-list .tabs:not(.active):hover:after {
+  width: 100%;
+}

@@ -1,0 +1,33 @@
+.none-slide-addon-detail-show {
+  display: flex;
+}
+
+.none-slide-addon-detail-item {
+  outline: none; 
+  width: 184px;
+}
+
+.addon-detail-show .addon-image {
+  height: 168px;
+  background: linear-gradient(180deg, #555B8C 0%, rgba(14, 69, 209, 0.29) 100%);
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.addon-detail-show .addon-image img {
+  height: 150px;
+}
+
+.hasaddon-mulipler {
+  font-size: 1.1rem;
+}
+
+.addon-image .show-alert {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.addon-image .show-alert:hover path {
+  opacity: 1;
+}

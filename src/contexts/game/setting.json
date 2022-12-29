@@ -1,0 +1,217 @@
+{
+  "SECONDS_IN_A_DAY": 86400,
+  "facility": ["Wind Farm", "Lumber Mill", "Brick Factory", "Concrete Plant", "Steel Mill"],
+  "facilityCost": [
+    [
+      [0, 0, 0, 0, 0],
+      [25, 4, 0, 0, 0],
+      [30, 0, 4, 0, 0],
+      [35, 0, 0, 4, 0],
+      [40, 0, 0, 0, 4]
+    ],
+    [
+      [25, 0, 0, 0, 0],
+      [30, 4, 0, 0, 0],
+      [35, 6, 0, 0, 0],
+      [40, 7, 4, 0, 0],
+      [50, 8, 6, 4, 0]
+    ],
+    [
+      [30, 5, 0, 0, 0],
+      [35, 6, 4, 0, 0],
+      [40, 4, 6, 2, 0],
+      [45, 6, 7, 6, 0],
+      [50, 6, 8, 6, 6]
+    ],
+    [
+      [35, 6, 4, 0, 0],
+      [40, 4, 4, 3, 0],
+      [45, 4, 4, 4, 2],
+      [50, 4, 4, 5, 4],
+      [55, 6, 6, 6, 4]
+    ],
+    [
+      [40, 6, 6, 3, 0],
+      [45, 4, 4, 4, 3],
+      [50, 5, 5, 5, 4],
+      [55, 6, 6, 6, 5],
+      [60, 6, 6, 6, 6]
+    ]
+  ],
+  "facilityYield": [
+    [15, 20, 25, 28, 30],
+    [2, 3, 4, 5, 6],
+    [2, 3, 4, 5, 6],
+    [1, 2, 3, 4, 5],
+    [1, 2, 3, 4, 5]
+  ],
+  "resources": ["Power", "Lumber", "Brick", "Concrete", "Steel"],
+  "powerForHarvest": 10,
+  "addon": [
+    {
+      "sortableId": 0,
+      "name": "Hardwood Floors",
+      "dependency": []
+    },
+    {
+      "sortableId": 1,
+      "name": "Landscaping",
+      "dependency": []
+    },
+    {
+      "sortableId": 2,
+      "name": "Garden",
+      "fertilizeCost": [10, 0 , 3, 0, 0],
+      "fertilizeDuration": 3,
+      "fertilizeMultiplier": 1.1,
+      "dependency": [1],
+      "message": "Landscaping"
+    },
+    {
+      "sortableId": 3,
+      "name": "Trees",
+      "dependency": []
+    },
+    {
+      "sortableId": 4,
+      "name": "Kitchen Remodel",
+      "dependency": []
+    },
+    {
+      "sortableId": 5,
+      "name": "Bathroom Remodel",
+      "dependency": []
+    },
+    {
+      "sortableId": 6,
+      "name": "Jacuzzi Tub",
+      "dependency": [5],
+      "message": "Bathroom Renovation"
+    },
+    {
+      "sortableId": 7,
+      "name": "Steel Sliding",
+      "dependency": [],
+      "fortDependency": 1,
+      "message": "Concrete Fortification"
+    },
+    {
+      "sortableId": 8,
+      "name": "Steel Application",
+      "dependency": [4],
+      "message": "Kitchen Renovation"
+    },
+    {
+      "sortableId": 9,
+      "name": "Root cellar",
+      "dependency": [],
+      "fortDependency": 0,
+      "message": "Brick Fortification"
+    },
+    {
+      "sortableId": 10,
+      "name": "Finished Basement",
+      "dependency": [4, 5],
+      "fortDependency": 2,
+      "message": "Kitchen and bathroom renovation, Steel Fortification"
+    },
+    {
+      "sortableId": 11,
+      "name": "Fireplace",
+      "dependency": []
+    }
+  ],
+  "addonCost": [
+    [20, 3, 0, 0, 0],
+    [20, 0, 6, 0, 0],
+    [30, 0, 0, 0, 0],
+    [20, 4, 0, 0, 0],
+    [20, 6, 6, 3, 0],
+    [20, 6, 4, 5, 0],
+    [20, 0, 0, 8, 0],
+    [20, 0, 0, 0, 8],
+    [20, 0, 0, 0, 6],
+    [0, 6, 8, 0, 2],
+    [30, 8, 8, 8, 8],
+    [20, 0, 2, 0, 0]
+  ],
+  
+  "addonMultiplier": [
+    110,
+    105,
+    105,
+    110,
+    115, 
+    110,
+    115, 
+    105, 
+    110, 
+    105, 
+    110, 
+    115
+  ],
+  "toolshed": [
+    {
+      "cost": [20, 2, 0, 0, 0],
+      "reductionPercent": [20, 30, 0, 0, 0]
+    },
+    {
+      "cost": [20, 0, 2, 0, 0],
+      "reductionPercent": [20, 0, 30, 0, 0]
+    },
+    {
+      "cost": [20, 0, 0, 2, 0],
+      "reductionPercent": [20, 0, 0, 30, 0]
+    },
+    {
+      "cost": [20, 0, 0, 0, 2],
+      "reductionPercent": [20, 0, 0, 0, 30]
+    }
+  ],
+  "overdrive": [
+    {
+      "cost": [25, 0, 0, 0, 0],
+      "reductionPercent": [0, 30, 0, 0, 0]
+    },
+    {
+      "cost": [25, 0, 0, 0, 0],
+      "reductionPercent": [0, 0, 30, 0, 0]
+    },
+    {
+      "cost": [25, 0, 0, 0, 0],
+      "reductionPercent": [0, 0, 0, 30, 0]
+    },
+    {
+      "cost": [25, 0, 0, 0, 0],
+      "reductionPercent": [0, 0, 0, 0, 30]
+    }
+  ],
+  "toolshedSwitchCost": [10, 0, 0, 0, 0],
+  "fortification": {
+    "lastingDays": 7,
+    "powerCost": 30
+  },
+  "harvester": {
+    "cost": [0, 0, 0, 0, 2],
+    "reductionPercent": 50
+  },
+  "fireplace": {
+    "cost": [0, 0, 2, 0, 0],
+    "burnRatio": 1000
+  },
+  "concreteFundation": {
+    "cost": [20, 0, 0, 4, 0],
+    "durability": 8
+  },
+  "hireHandyman": {
+    "cost": 0.15,
+    "durability": 10,
+    "restoreDurability": 100,
+    "duration": 7
+  },
+  "harvestCost": 10,
+  "powerPerLandtoken": 50,
+  "powerPerLumber": 15,
+  "overdriveDays": 1,
+  "landshareCostApi": "https://api.pancakeswap.info/api/v2/tokens/0x9d986a3f147212327dd658f712d5264a73a1fdb0"
+}
